@@ -202,3 +202,89 @@ a:hover {
 .answer {
   margin-bottom: 1.5rem;
 }
+
+/*Footer styles*/
+
+footer {
+  height: 10vh;
+  width: 100vw;
+  background-color: #606060;
+  color: #fff;
+  font-family: 'Muli', sans-serif;
+  display: table;
+  text-align: center;
+  font-size: .875rem;
+}
+
+.footer-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  padding: .5rem 1rem;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+footer small {
+  line-height: 1.5;
+}
+
+/*media query*/
+
+@media (min-width: 768px) {
+
+  .cover {
+    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center/cover;
+  }
+
+  .introduction {
+    padding: 1.25rem;
+    border-radius: 4px;
+    width: 50%;
+  }
+
+  .introduction h1 {
+    font-size: 7rem;
+  }
+
+  .tagline {
+    text-transform: uppercase;
+  }
+   .points {
+    display: inline-block;
+    width: 30%;
+    padding: 1.5rem;
+    margin: .5rem;
+  }
+
+  .points::after {
+    display: none;
+  }
+
+  .program-wrapper {
+    width: 30vw;
+    margin: 0 auto;
+  }
+  
+  .question-group {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    padding: 1.5rem;
+    margin: .5rem;
+  }
+
+  .question-group::after {
+    display: none;
+  }
+
+  .question-group h3 {
+    text-align: left;
+  }
+  
+  footer {
+    min-height: 7vh;
+  }
+
+}
